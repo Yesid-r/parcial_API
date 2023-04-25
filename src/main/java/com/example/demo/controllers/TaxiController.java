@@ -36,10 +36,11 @@ public class TaxiController {
 		return taxiService.findById(idTaxi);
 	}
 	
-	@GetMapping("/TaxiMaxTarifa")
+	/*@GetMapping("/TaxiMaxTarifa")
 	public Taxi maxTarifa() {
 		return taxiService.TaxiMaxTarifa();
 	}
+	*/
 	
 	
 }

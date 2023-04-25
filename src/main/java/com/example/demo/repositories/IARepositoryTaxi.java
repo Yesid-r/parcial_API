@@ -11,6 +11,7 @@ public interface IARepositoryTaxi extends JpaRepository<Taxi, Long> {
 
 	public Taxi findByIdTaxi(Long idTaxi);
 	
-	@Query(value = "SELECT t FROM Taxi t WHERE TARIFA_POR_KM = (SELECT MAX(TARIFA_POR_KM) FROM taxi)")
+	/*@Query(value = "SELECT t FROM Taxi t WHERE TARIFA_POR_KM = (SELECT MAX(TARIFA_POR_KM) FROM taxi)")
 	public Taxi findMaxTarifa();
+	*/
 }

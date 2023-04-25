@@ -28,9 +28,11 @@ public class TaxiService {
 
         return taxi;
     }
+	/*
 	public Taxi TaxiMaxTarifa() {
 		Taxi taxi = iaRepositoryTaxi.findMaxTarifa();
 		
 		return null;
 	}
+	*/
 }
